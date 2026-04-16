@@ -23,6 +23,19 @@ To prove that practical SOC and SIEM skills can be developed under hardware cons
 | Endpoint 1 | Windows 11 | Attack simulation / monitoring |
 | Endpoint 2 | Lubuntu | Lightweight monitored system |
 
+graph TD
+    subgraph Host_Machine_8GB_RAM
+        subgraph VirtualBox_Network_Bridge
+            Manager[Wazuh Manager <br/> Ubuntu Server]
+            Win11[Windows 11 Agent <br/> Victim Machine]
+            Lubuntu[Lubuntu Agent <br/> Linux Node]
+        end
+    end
+
+    Win11 -- Port 1514/1515 --> Manager
+    Lubuntu -- Port 1514/1515 --> Manager
+    Manager -- Dashboard Interface --> Host_Browser[Host Web Browser]
+    
 Network Mode: Bridged Adapter (All machines on the same network)
 
 
