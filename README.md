@@ -121,6 +121,18 @@ The completed lab demonstrated:
 
 Supporting screenshots are stored in [`/screenshots`](./screenshots).
 
+## Investigation Case Studies
+
+After validating the multi-endpoint Wazuh deployment, I used the environment for controlled security-event investigation.
+
+The investigation notes document what the telemetry actually supported rather than treating every security event as proof of malicious activity.
+
+- [Windows Authentication Analysis](./investigations/01-windows-authentication-analysis.md) — failed and successful Windows logon activity, event metadata and Wazuh rule context.
+- [Linux Security Telemetry](./investigations/02-linux-security-telemetry.md) — Linux authentication/session and host-security telemetry reviewed through Wazuh.
+- [Controlled Shell Activity](./investigations/03-controlled-shell-activity.md) — controlled TCP 4444 listener/shell activity followed by Wazuh event inspection and evidence-bounded analysis.
+
+[View all investigation notes](./investigations/README.md)
+
 ## Skills Demonstrated
 
 ### Security Operations
