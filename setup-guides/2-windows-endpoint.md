@@ -42,14 +42,21 @@ Search:
 Select:
 Adjust for best performance
 
-## Step 5: Disable Startup Apps
+## Step 5: Reduce Unnecessary Startup Applications
 
-Task Manager → Startup → Disable all
+Open:
 
+Task Manager → Startup
 
-## Step 6: Disable Defender (Temporary only if constrained system RAM)
+Review unnecessary startup applications and disable only those that are not required for the lab or operating system.
 
-Turn off real-time protection
+## Optional Lab-Specific Resource Adjustment
+
+During the original constrained build, some Windows services and background applications were temporarily reduced to lower resource consumption.
+
+This was a lab-specific troubleshooting decision, not a recommended production configuration.
+
+Do not disable security controls such as Microsoft Defender on production systems merely to reduce resource usage. If temporary changes are required in a controlled lab, document them and restore the controls after testing.
 
 ## Expected Result
 
