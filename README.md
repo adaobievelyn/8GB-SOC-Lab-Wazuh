@@ -166,6 +166,7 @@ Supporting screenshots are stored in [`/screenshots`](./screenshots).
     ├── 3-lubuntu-endpoint.md
     ├── 4-agent-enrollment.md
     └── 5-troubleshooting.md
+```
 
 ## Version and Reproduction Note
 
