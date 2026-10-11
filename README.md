@@ -167,6 +167,11 @@ The investigation notes document what the telemetry actually supported rather th
 8GB-SOC-Lab-Wazuh/
 ├── README.md
 ├── architecture-diagram (1).png
+├── investigations/
+│   ├── README.md
+│   ├── 01-windows-authentication-analysis.md
+│   ├── 02-linux-security-telemetry.md
+│   └── 03-controlled-shell-activity.md
 ├── resources/
 │   ├── commands.md
 │   └── useful-links.md
