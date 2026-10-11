@@ -47,7 +47,7 @@ Adjust for best performance
 Task Manager → Startup → Disable all
 
 
-## Step 6: Disable Defender (Temporary)
+## Step 6: Disable Defender (Temporary only if constrained system RAM)
 
 Turn off real-time protection
 
