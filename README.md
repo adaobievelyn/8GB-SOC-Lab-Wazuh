@@ -166,3 +166,37 @@ Supporting screenshots are stored in [`/screenshots`](./screenshots).
     ├── 3-lubuntu-endpoint.md
     ├── 4-agent-enrollment.md
     └── 5-troubleshooting.md
+
+## Version and Reproduction Note
+
+This repository documents the environment I built and tested in **April 2026**.
+
+The original build used Wazuh 4.7.x-era installation and agent packages. Wazuh installation procedures and package versions may change over time, so anyone reproducing the project should compare these historical build notes with the current official Wazuh documentation.
+
+The commands in this repository are retained primarily as a record of the tested environment rather than a guarantee that every command remains appropriate for newer Wazuh releases.
+
+## Security Note
+
+This is a controlled lab environment.
+
+Some configuration decisions used to reduce resource pressure or generate security telemetry may not be appropriate for production systems. Security controls should not be disabled on production endpoints simply to reproduce this lab.
+
+## What I Learned
+
+The main lesson from this project was not merely how to install a SIEM.
+
+It was how to adapt a security architecture when the ideal environment is unavailable:
+
+- Understand the resource bottleneck.
+- Reduce unnecessary components.
+- Preserve the monitoring objective.
+- Validate each layer independently.
+- Troubleshoot from evidence rather than repeatedly rebuilding the environment.
+
+That same discipline now informs my broader SOC, DFIR and detection-engineering work.
+
+## Related Work
+
+- [Security Operations, DFIR & Detection Engineering Portfolio](https://github.com/adaobievelyn/SOC-Analyst-Portfolio)
+- [LinkedIn](https://www.linkedin.com/in/adaobievelyn/)
+- [Medium](https://medium.com/@nnanna.adaobi.e)
